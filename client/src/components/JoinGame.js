@@ -30,7 +30,7 @@ function JoinGame() {
       </Channel>
       ) : (
         <div className="joinGame">
-          <h4>Create Game</h4>
+          <h4>Create/ Join Game</h4>
           <input
             placeholder="Username of opponent"
             onChange={(event) => {

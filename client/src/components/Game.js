@@ -25,8 +25,8 @@ function Game({ channel, setChannel }) {
         await channel.stopWatching();
         setChannel(null)
       }}>Leave Game</button>
-      {result.state === "won" && <div>{result.winner}Won The Game</div>}
-      {result.state === "tie" && <div>{result.winner}Game Tied</div>}
+      {result.state === "won" && <div>{result.winner} Won The Game</div>}
+      {result.state === "tie" && <div>{result.winner} Game Tied</div>}
     </div>
   );
 }
