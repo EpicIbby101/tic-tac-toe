@@ -1,2 +1,1 @@
-// TO-DO //
-- Populate README
+To run locally...
